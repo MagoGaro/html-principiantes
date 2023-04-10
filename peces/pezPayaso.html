@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pez Payaso</title>
+
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+		/*menu de navegacion*/
+		#nav{
+			width: 700px;
+			height: 50px;
+			margin: 0 auto;
+		}
+		ul{
+			margin: 0px;
+		}
+		#nav li, #pie li{
+			list-style: none;
+			float: left;
+			width: auto;
+			margin: 12px 15px 0 0;
+			font-weight: 600;
+		}
+		a{
+			text-decoration: none;
+			color: #777;
+			padding: 5px;
+		}
+
+		a:hover{
+			background-color: #eee;
+		}
+		#logo{
+			float: left;
+			margin-right: 50px;
+		}
+		/*cabecera*/
+		#cabecera{
+			width: 100%;
+			height: 400px;
+			background-image: url('peces.jpeg');
+			background-size: 100% 400px;
+		}
+		/* cuerpo */
+		#cuerpo{
+			width: 955px;
+			height: auto;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.articulo{
+			float: left;
+			width: 200px;
+			height: 300px;
+			margin: 10px;
+			padding: 8px;
+			overflow: hidden;
+		}
+
+		.redondo{
+			width: 200px;
+			height: 200px;
+			border-radius: 150px;
+			box-shadow: 5px 5px 2px #999;
+		}
+		h3{
+			text-align: center;
+		}
+		p{
+			color: #999;
+			text-align: justify;
+		}
+		.descripcion{
+			width: 600px;
+			height: 200px;
+			float: left;
+			margin: 50px 0  0 10px;
+			padding: 10px;
+			overflow: hidden;
+		}
+		/*pie*/
+		#pie{
+			width: 100%;
+			height: 50px;
+			background-color: lightgray;
+		}
+	</style>
+
+</head>
+<body>
+	<!-- menu de navegacion -->
+	<div id="nav">
+		<img src="images-removebg-preview.png" id="logo" width="50px" height="50px" alt="">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Complementos</a></li>
+			<li><a href="#">Alimentos</a></li>
+			<li><a href="#">Acuarios</a></li>
+			<li><a href="#">Peces</a></li>
+		</ul>
+	</div>
+
+	<!-- cabecera-->
+	<div id="cabecera"></div>
+
+	<!-- cuerpo-->
+	<div id="cuerpo">
+		<div class="articulo">
+			<h3>Pez Payaso</h3>
+			<img src="pez-payaso.jpg" class="redondo" alt="">
+		</div>
+			<div class="descripcion">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem possimus quos quis, tenetur, eaque ratione non, voluptate minima dolores, odio. Tempore magnam ea quos, fugit odio, ipsa quae. Quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+		
+		
+	</div>
+
+	<!-- pie -->
+	<div id="pie">
+		<ul>
+			<li>Derechos de autor</li>
+			<li>Privacidad</li>
+			<li>Terminos de uso</li>
+			<li>Sobre Nosotros</li>
+			<li>Contacto</li>
+		</ul>
+	</div>
+</body>
+</html>

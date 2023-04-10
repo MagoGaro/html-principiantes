@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peces Marinos</title>
+
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+		/*menu de navegacion*/
+		#nav{
+			width: 700px;
+			height: 50px;
+			margin: 0 auto;
+		}
+		ul{
+			margin: 0px;
+		}
+		#nav li, #pie li{
+			list-style: none;
+			float: left;
+			width: auto;
+			margin: 12px 15px 0 0;
+			font-weight: 600;
+		}
+		#nav a, .btn a{
+			text-decoration: none;
+			color: #777;
+			padding: 5px;
+		}
+
+		#nav a:hover{
+			background-color: #eee;
+		}
+		#logo{
+			float: left;
+			margin-right: 50px;
+		}
+		/*cabecera*/
+		#cabecera{
+			width: 100%;
+			height: 400px;
+			background-image: url('peces.jpeg');
+			background-size: 100% 400px;
+		}
+		/* cuerpo */
+		#cuerpo{
+			width: 955px;
+			height: auto;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.articulo{
+			float: left;
+			width: 200px;
+			height: 600px;
+			margin: 10px;
+			padding: 8px;
+			overflow: hidden;
+		}
+
+		.articulo:hover{
+			background-color: lightcoral;
+		}
+		.redondo{
+			width: 200px;
+			height: 200px;
+			border-radius: 150px;
+			box-shadow: 5px 5px 2px #999;
+		}
+		h3{
+			text-align: center;
+		}
+		p{
+			color: #999;
+			text-align: justify;
+		}
+		.btn{
+			margin: 0 auto;
+			width: 70px;
+			height: 20px;
+			border-radius: 5px;
+			background-color: blue;
+			padding: 2px 10px 2px 10px;
+			
+		}
+
+		.btn a{
+			color: white;
+		}
+		.btn:hover{
+			background-color: lightblue;
+		}
+		/*pie*/
+		#pie{
+			width: 100%;
+			height: 50px;
+			background-color: lightgray;
+		}
+	</style>
+
+</head>
+<body>
+	<!-- menu de navegacion -->
+	<div id="nav">
+		<img src="images-removebg-preview.png" id="logo" width="50px" height="50px" alt="">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Complementos</a></li>
+			<li><a href="#">Alimentos</a></li>
+			<li><a href="#">Acuarios</a></li>
+			<li><a href="#">Peces</a></li>
+		</ul>
+	</div>
+
+	<!-- cabecera-->
+	<div id="cabecera"></div>
+
+	<!-- cuerpo-->
+	<div id="cuerpo">
+		<div class="articulo">
+			<img src="pez-payaso.jpg" class="redondo" alt="">
+			<h3>Pez Payaso</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem possimus quos quis, tenetur, eaque ratione non, voluptate minima dolores, odio. Tempore magnam ea quos, fugit odio, ipsa quae. Quas!</p>
+			<div class="btn"><a href="pezPayaso.html">Mostrar</a></div>
+		</div>
+		<div class="articulo">
+			<img src="pez-cirujano.jpg" class="redondo" alt="">
+			<h3>Pez Cirujano</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem possimus quos quis, tenetur, eaque ratione non, voluptate minima dolores, odio. Tempore magnam ea quos, fugit odio, ipsa quae. Quas!</p>
+			<div class="btn"><a href="pezCirujano.html">Mostrar</a></div>
+		</div>
+		<div class="articulo">
+			<img src="pez-cirujano-amarillo.jpeg" class="redondo" alt="">
+			<h3>Pez Cirujano Amarillo</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem possimus quos quis, tenetur, eaque ratione non, voluptate minima dolores, odio. Tempore magnam ea quos, fugit odio, ipsa quae. Quas!</p>
+			<div class="btn"><a href="pezCirujanoAmarillo.html">Mostrar</a></div>
+		</div>
+		<div class="articulo">
+			<img src="pez-mariposa-amarillo.jpeg" class="redondo" alt="">
+			<h3>Pez Mariposa Amarillo</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem possimus quos quis, tenetur, eaque ratione non, voluptate minima dolores, odio. Tempore magnam ea quos, fugit odio, ipsa quae. Quas!</p>
+			<div class="btn"><a href="pezMariposaAmarillo.html">Mostrar</a></div>
+		</div>
+	</div>
+
+	<!-- pie -->
+	<div id="pie">
+		<ul>
+			<li>Derechos de autor</li>
+			<li>Privacidad</li>
+			<li>Terminos de uso</li>
+			<li>Sobre Nosotros</li>
+			<li>Contacto</li>
+		</ul>
+	</div>
+</body>
+</html>
